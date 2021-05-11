@@ -8,6 +8,6 @@ org     100h
 condic  mul ecx
         loop condic
 
-salto1 mov[0210h],eax
+salto1 mov[20Bh],eax
 
         int 20h
